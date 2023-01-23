@@ -1,0 +1,16 @@
+.sf-button {
+  background-color: #119744;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.edit-button {
+  text-decoration: none;
+  color: #fff;
+}
