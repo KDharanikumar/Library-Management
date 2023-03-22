@@ -14,3 +14,61 @@
   text-decoration: none;
   color: #fff;
 }
+
+
+
+/****************************************************SIGN IN***************************************************/
+
+.signin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	/* background-color: #b2001f; */
+}
+
+.signin-card {
+	height: 450px;
+	width: 350px;
+}
+
+.user-pic {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #119744;
+}
+
+.signin form input {
+	border-radius: 5;
+}
+
+.signin form input:focus {
+	border-color: #119744;
+	box-shadow: none;
+}
+
+/****************************************************SIGN UP***************************************************/
+
+.signup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	/* background-color: #b2001f; */
+}
+
+.signup-card {
+	height: 550px;
+	width: 350px;
+}
+
+.signup form input {
+	border-radius: 5;
+}
+
+.signup form input:focus {
+	border-color: #dc3545;
+	box-shadow: none;
+}

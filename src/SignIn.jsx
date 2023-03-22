@@ -2,10 +2,10 @@ import { useNavigate } from "react-router-dom";
 
 function SignIn() {
   let navigate = useNavigate();
-  let username = "abc";
-  let pass = "123";
+  let username = "admin@gmail.com";
+  let pass = "welcome";
   let SignIn = () => {
-    if (username === "abc" && pass === "123") {
+    if (username === "admin@gmail.com" && pass === "welcome") {
       navigate("/portal/dashboard");
     } else {
       alert("Worng data");
