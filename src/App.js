@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Login from "./SignIn";
 import Portal from "./Portal";
 import Dashboard from "./Dashboard";
 import Library from "./Library";
@@ -16,7 +15,6 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          {/* <Route path="/" element={<Login />} /> */}
           <Route path="/" element={<SignIn />}/>
           <Route path="/signup" element={<SignUp />}/>
           <Route path="/portal" element={<Portal />}>
