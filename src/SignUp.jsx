@@ -92,9 +92,7 @@ const SignUp = () => {
 											value={formik.values.password}
 										/>
 										<br />
-										<span style={{ color: "red" }}>
-											{formik.touched.confirmpassword && formik.errors.confirmpassword}
-										</span>
+										<span style={{ color: "red" }}>{formik.touched.confirmpassword && formik.errors.confirmpassword}</span>
 										<input
 											type="password"
 											className="form-control"
@@ -105,20 +103,15 @@ const SignUp = () => {
 										/>
 										<br />
 									</div>
-									<div className="d-grid gap-4 mb-3">
-										<div className="d-grid gap-4 mb-3">
-											<input
-												type="submit"
-												className="form-control"
-												style={{ backgroundColor: "#119744", color: "#fff" }}
-												value={"Create Account"}
-											/>
-										</div>
+
+									<div className="d-grid gap-4 mb-4">
+										<input type="submit" className="form-control" style={{ backgroundColor: "#119744", color: "#fff" }} value={"Create Account"} />
 									</div>
+
 									<div>
 										Already Have account?
-										<span className="text-primary fs-6 mx-2">
-											<Link to="/" style={{ color: "#119744",textDecoration:"none"}}>
+										<span className="text-primary fw-bold mx-2">
+											<Link to="/" style={{ color: "#119744", textDecoration: "none" }}>
 												Signin
 											</Link>
 										</span>

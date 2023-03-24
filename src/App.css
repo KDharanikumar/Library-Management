@@ -1,22 +1,33 @@
+* {
+	list-style: none;
+	text-decoration: none;
+}
+
 .sf-button {
-  background-color: #119744;
-  color: #fff;
-  border-radius: 5px;
-  border: none;
-  text-align: center;
-  height: 40px;
-  width: 200px;
-  text-decoration: none;
-  font-weight: 600;
+	background-color: #119744;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	height: fit-content;
+	width: fit-content;
+	text-decoration: none;
+	font-weight: 600;
+	padding: 8px 20px;
 }
 
 .edit-button {
-  text-decoration: none;
-  color: #fff;
+	text-decoration: none;
+	color: #fff;
 }
 
-
-
+.section-title h1 {
+	text-align: center;
+	margin: 50px 0px 30px 0px;
+	color: #119744;
+	font-size: 36px;
+	font-weight: 700;
+}
 /****************************************************SIGN IN***************************************************/
 
 .signin {
@@ -28,7 +39,7 @@
 }
 
 .signin-card {
-	height: 450px;
+	height: 480px;
 	width: 350px;
 }
 
@@ -60,7 +71,7 @@
 }
 
 .signup-card {
-	height: 550px;
+	height: 500px;
 	width: 350px;
 }
 
@@ -71,4 +82,77 @@
 .signup form input:focus {
 	border-color: #dc3545;
 	box-shadow: none;
+}
+
+/****************************************************NAVBAR***************************************************/
+
+.navbar-brand {
+	font-size: 24px;
+	font-weight: 900;
+	color: #119744;
+}
+
+.navbar-brand:hover {
+	color: rgb(7, 181, 123);
+}
+
+.nav-link {
+	font-size: 18px;
+	font-weight: 700;
+	color: #119744;
+}
+
+.nav-link:hover {
+	color: #03c04b;
+}
+
+/****************************************************DASHBOARD***************************************************/
+
+.dashboard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+}
+
+/****************************************************ADD BOOK***************************************************/
+
+.addbook form label {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.addbook form input {
+	border-radius: 3px;
+	border-color: #000;
+}
+
+.addbook form input:focus {
+	border-color: #119744;
+	box-shadow: none;
+}
+
+/****************************************************BOOKS-DETAILS***************************************************/
+
+.books-details .card {
+	width: 300px;
+	height: fit-content;
+}
+
+.books-details .card img {
+	width: 250px;
+}
+
+.books-details .card h5 {
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.books-details .card ul li {
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
 }
